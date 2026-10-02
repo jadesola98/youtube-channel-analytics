@@ -8,11 +8,11 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv("API_KEY")
-user = os.getenv("USER")
-password = os.getenv("PASSWORD")
-host = os.getenv("HOST")
-dbname = os.getenv("DBNAME")
+api_key = os.getenv("YOUTUBE_API_KEY")
+user = os.getenv("DB_USER")
+password = os.getenv("DB_PASSWORD")
+host = os.getenv("DB_HOST")
+dbname = os.getenv("DB_NAME")
 
 
 pd.set_option('display.max_columns', None)
