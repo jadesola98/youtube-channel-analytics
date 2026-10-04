@@ -1,0 +1,5 @@
+google-api-python-client
+pandas
+sqlalchemy>=2.0
+psycopg2-binary
+python-dotenv
